@@ -40,7 +40,7 @@ body {
 }
 
 .small {
-  font-size:
+  font-size: 1.5rem;
 }
 
 /* Font Faces */
@@ -132,6 +132,19 @@ ul li {
 }
 
 /* Courses */
+
+.learn {
+  background-color: #d4d6d8;
+}
+
+.learn .container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.learn .text-content {
+  background-color: white;
+}
 
 .course img {
   height: auto;
