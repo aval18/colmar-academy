@@ -149,3 +149,19 @@ ul li {
 .course img {
   height: auto;
 }
+
+/* Exhibit */
+
+.video video {
+  width: 60%;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+}
+
+footer span {
+
+}
