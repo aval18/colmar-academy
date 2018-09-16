@@ -21,8 +21,8 @@ body {
 }
 
 .container {
-  display: flex;
   align-items: center;
+  margin: 0 auto;
   height: 100%;
 }
 
@@ -73,8 +73,18 @@ body {
 
 header {
   width: 100%;
-  background-color: white;
   height: 64px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -88,16 +98,25 @@ nav ul {
 
 ul li {
   display: inline;
+  padding-left: 16px;
+}
+
+ul li:last-child {
+  padding-right: 24px;
 }
 
 /* Banner */
 
 .banner {
   background-color: #d4d6d8;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .banner img {
   width: 60%;
+  height: auto;
   padding: 32px 24px;
 }
 
@@ -122,6 +141,7 @@ ul li {
 
 .info {
   margin: 32px 0;
+  display: flex;
 }
 .main img {
   width: 60%;
@@ -140,6 +160,7 @@ ul li {
 .learn .container {
   flex-direction: row;
   flex-wrap: wrap;
+  display: flex;
 }
 
 .learn .text-content {
@@ -151,6 +172,10 @@ ul li {
 }
 
 /* Exhibit */
+
+.exhibit .container {
+  display: flex;
+}
 
 .video video {
   width: 60%;
