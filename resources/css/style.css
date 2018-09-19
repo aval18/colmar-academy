@@ -143,12 +143,19 @@ ul li:last-child {
   margin: 32px 0;
   display: flex;
 }
+
+.main {
+  padding: 32px 24px;
+  border-right: 1px solid #d4d6d8;
+}
+
 .main img {
-  width: 60%;
+  width: 100%;
 }
 
 .block {
-  width: 40%;
+  display: flex;
+  padding-left: 16px;
 }
 
 /* Courses */
