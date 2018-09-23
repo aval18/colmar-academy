@@ -18,6 +18,8 @@ body {
   color: #4b4d4f;
   font-size: 2rem;
   font-weight: bold;
+  display: block;
+  text-align: center;
 }
 
 .container {
@@ -28,6 +30,7 @@ body {
 
 .text-content {
   display: block;
+  padding: 0;
 }
 
 .detail {
@@ -37,10 +40,12 @@ body {
 
 .read-more {
   color: #68a2ff;
+  display: block;
 }
 
 .small {
   font-size: 1.5rem;
+  text-align: left;
 }
 
 /* Font Faces */
@@ -137,6 +142,10 @@ ul li:last-child {
   width: 30%;
 }
 
+section div {
+  padding-bottom: 24px;
+}
+
 /* info */
 
 .info {
@@ -155,7 +164,20 @@ ul li:last-child {
 
 .block {
   display: flex;
-  padding-left: 16px;
+  border-bottom: 1px solid #d4d6d8;
+  align-items: center;
+}
+
+.lecture {
+  background-color: #d4d6d8;
+}
+
+.block img {
+  padding: 16px;
+}
+
+.info .main .subtitle {
+  text-align: left;
 }
 
 /* Courses */
@@ -184,8 +206,8 @@ ul li:last-child {
   display: flex;
 }
 
-.video video {
-  width: 60%;
+.main video {
+  width: 100%;
 }
 
 /* Footer */
