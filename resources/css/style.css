@@ -20,6 +20,7 @@ body {
   font-weight: bold;
   display: block;
   text-align: center;
+  padding: 32px 0;
 }
 
 .container {
@@ -46,6 +47,11 @@ body {
 .small {
   font-size: 1.5rem;
   text-align: left;
+  padding: 0;
+}
+
+.container {
+  background-color: #edeff2;
 }
 
 /* Font Faces */
@@ -196,8 +202,17 @@ section div {
   background-color: white;
 }
 
+.all-courses {
+  margin: 32px 72px;
+}
+
 .course img {
   height: auto;
+}
+
+.course .description {
+  padding: 8px 0;
+  display: block;
 }
 
 /* Exhibit */
