@@ -200,19 +200,39 @@ section div {
 
 .learn .text-content {
   background-color: white;
+  padding: 16px 0 24px 16px;
 }
 
 .all-courses {
   margin: 32px 72px;
 }
 
+.course {
+  width: 30%;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
 .course img {
   height: auto;
+  width: 100%
 }
 
 .course .description {
   padding: 8px 0;
   display: block;
+}
+
+.row-1 {
+  display: flex;
+}
+
+.row-2 {
+  display: flex;
+}
+
+.last {
+  margin-right: 0px;
 }
 
 /* Exhibit */
