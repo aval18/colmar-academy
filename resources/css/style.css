@@ -277,8 +277,16 @@ section div {
 footer {
   display: flex;
   background-color: #edeff2;
+  border: 1px solid #d4d6d8;
+  justify-content: space-between;
 }
 
-footer span {
+footer div {
+  display: flex;
+  padding-top: 16px;
+  padding-left:  24px;
+}
 
+.policies span {
+  padding-right: 16px;
 }
