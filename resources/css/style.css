@@ -47,6 +47,7 @@ body {
 .small {
   font-size: 1.5rem;
   text-align: left;
+  margin-bottom: 8px;
   padding: 0;
 }
 
@@ -159,6 +160,7 @@ section div {
 .main {
   padding: 32px 24px;
   border-right: 1px solid #d4d6d8;
+  width: 60%;
 }
 
 .main img {
@@ -171,16 +173,21 @@ section div {
   align-items: center;
 }
 
-.lecture {
+.special {
   background-color: #d4d6d8;
 }
 
 .block img {
   padding: 16px;
+  width: 35%;
 }
 
 .info .main .subtitle {
   text-align: left;
+}
+
+.events {
+  width: 40%;
 }
 
 /* Courses */
@@ -241,12 +248,28 @@ section div {
   background-color: #edeff2;
 }
 
-.exhibit .container {
+.exhibit .main {
+  border: none;
+}
+
+.exhibit .block {
+  border: none;
+}
+
+.display {
   display: flex;
 }
 
 .main video {
   width: 100%;
+}
+
+.thesis {
+  padding-top: 32px;
+}
+
+.main .text-content {
+  padding-top: 24px;
 }
 
 /* Footer */
