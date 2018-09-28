@@ -283,8 +283,7 @@ footer {
 
 footer div {
   display: flex;
-  padding-top: 16px;
-  padding-left:  24px;
+  padding: 16px 0px 50px 24px;
 }
 
 .policies span {
