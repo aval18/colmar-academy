@@ -154,7 +154,6 @@ section div {
 .info {
   margin: 32px 0;
   display: flex;
-
 }
 
 .main {
@@ -182,8 +181,14 @@ section div {
   width: 35%;
 }
 
-.info .main .subtitle {
+.main .subtitle {
   text-align: left;
+  padding-top: 32px;
+}
+
+.main .description {
+  padding: 24px 0px;
+  display: block;
 }
 
 .events {
@@ -266,10 +271,6 @@ section div {
 
 .thesis {
   padding-top: 32px;
-}
-
-.main .text-content {
-  padding-top: 24px;
 }
 
 /* Footer */
